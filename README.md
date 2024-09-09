@@ -5,6 +5,7 @@ This project implements a semi-supervised approach for bidirectional translation
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [Structure](#Structure)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Training](#training)
@@ -13,6 +14,30 @@ This project implements a semi-supervised approach for bidirectional translation
 ## Introduction
 
 Classical Chinese poetry and painting represent an important part of the world's cultural heritage. This project aims to computationally capture the intricate relationship between these two art forms by learning bidirectional mappings that enforce semantic alignment between the visual and textual modalities.
+
+
+## Structure
+
+project/
+├── config.py
+├── data/
+│   └── __init__.py
+│   └── dataset.py
+│   └── dataloader.py
+├── models/
+│   └── __init__.py
+│   └── encoder.py
+│   └── generator.py
+│   └── discriminator.py
+├── utils/
+│   └── __init__.py
+│   └── losses.py
+│   └── metrics.py
+├── train.py
+├── evaluate.py
+├── inference.py
+└── requirements.txt
+
 
 
 ## Installation
