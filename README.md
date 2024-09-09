@@ -5,16 +5,10 @@ This project implements a semi-supervised approach for bidirectional translation
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Dataset](#dataset)
-- [Model Architecture](#model-architecture)
 - [Training](#training)
-- [Evaluation](#evaluation)
 - [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
