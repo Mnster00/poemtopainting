@@ -90,4 +90,14 @@ Refer to `train.py` for the detailed training procedure and hyperparameters.
 
 
 ## Results
+'''
+| Method                               | Poeticness    | Picturesqueness | Consistency   |
+|--------------------------------------|---------------|-----------------|---------------|
+| AttnGAN \cite{xu2018attngan}         | 3.18          | 3.05            | 2.92          |
+| StackGAN++\cite{zhang2018stackgan++} | 3.42          | 3.31            | 3.15          |
+| MirrorGAN\cite{qiao2019mirrorgan}    | 3.57          | 3.46            | 3.28          |
+| PPGN\cite{nguyen2017plug}            | 3.73          | 3.69            | 3.52          |
+| Liu et al. \cite{liu2018beyond}      | 4.11          | 3.96            | 3.88          |
+| \textbf{Ours}                        | \textbf{4.32} | \textbf{4.25}   | \textbf{4.18} |
 
+'''
