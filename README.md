@@ -90,7 +90,17 @@ Refer to `train.py` for the detailed training procedure and hyperparameters.
 
 
 ## Results
-'''
+
+| Method                                | P-FID $\downarrow$ | P-Acc $\uparrow$ | DCE $\downarrow$ |
+|---------------------------------------|--------------------|------------------|------------------|
+| AttnGAN \cite{xu2018attngan}          | 93.2               | 58.3             | 2.36             |
+| StackGAN++ \cite{zhang2018stackgan++} | 85.7               | 62.7             | 2.07             |
+| MirrorGAN \cite{qiao2019mirrorgan}    | 80.4               | 65.8             | 1.85             |
+| PPGN \cite{nguyen2017plug}            | 75.1               | 68.4             | 1.62             |
+| Liu et al. \cite{liu2018beyond}       | 67.3               | 72.9             | 1.34             |
+| \textbf{Ours}                         | \textbf{57.2}      | \textbf{78.3}    | \textbf{0.85}    |
+
+
 | Method                               | Poeticness    | Picturesqueness | Consistency   |
 |--------------------------------------|---------------|-----------------|---------------|
 | AttnGAN \cite{xu2018attngan}         | 3.18          | 3.05            | 2.92          |
@@ -100,4 +110,4 @@ Refer to `train.py` for the detailed training procedure and hyperparameters.
 | Liu et al. \cite{liu2018beyond}      | 4.11          | 3.96            | 3.88          |
 | \textbf{Ours}                        | \textbf{4.32} | \textbf{4.25}   | \textbf{4.18} |
 
-'''
+
