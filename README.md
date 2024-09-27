@@ -44,7 +44,7 @@ Classical Chinese poetry and painting represent an important part of the world's
 
 1. Clone this repository:
    ```
-   git clone https://github.com/your-username/chinese-poem-painting-generation.git
+   git clone https://github.com/Mnster00/chinese-poem-painting-generation.git
    cd chinese-poem-painting-generation
    ```
 
